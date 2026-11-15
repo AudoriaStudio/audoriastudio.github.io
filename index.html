@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Audoria – Audiobook Player</title>
+<meta name="description" content="Audoria is an audiobook player for the books you already own. No ads, no account.">
+<link rel="icon" href="icon.png">
+<!-- Audoria Studio website home (GitHub Pages). Linked from the Play listing as the app's website.
+     Privacy policy lives at privacy/index.html — keep it identical to the in-app copy. -->
+<style>
+  :root { --bg: #0D0D1A; --surface: #111428; --text: #B3B3C6; --bright: #E6E0E9; --gold: #F9A825; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; line-height: 1.55;
+    color: var(--text); background: radial-gradient(ellipse 900px 500px at 50% 0%, #1b2246 0%, var(--bg) 70%) var(--bg);
+    min-height: 100vh;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 56px 20px 48px; }
+  .brand { display: flex; align-items: center; gap: 16px; }
+  .brand img { width: 72px; height: 72px; border-radius: 18px; }
+  h1 { margin: 0; color: var(--bright); font-size: 2rem; letter-spacing: -0.3px; }
+  .tag { margin: 2px 0 0; color: var(--gold); font-weight: 600; }
+  .lead { font-size: 1.15rem; color: var(--bright); margin: 32px 0 8px; }
+  .card { background: var(--surface); border: 1px solid rgba(255,255,255,0.06); border-radius: 16px; padding: 18px 22px; margin: 24px 0; }
+  h2 { color: var(--bright); font-size: 1.05rem; margin: 0 0 8px; }
+  ul { margin: 0; padding-left: 20px; }
+  li { margin: 4px 0; }
+  a { color: var(--gold); }
+  .button { display: inline-block; margin-top: 8px; padding: 12px 22px; border: 1.5px solid var(--gold); border-radius: 28px; text-decoration: none; font-weight: 600; }
+  footer { margin-top: 40px; font-size: 0.9rem; color: #8a8aa0; }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand">
+    <img src="icon.png" alt="">
+    <div>
+      <h1>Audoria</h1>
+      <p class="tag">Your audiobooks, beautifully played.</p>
+    </div>
+  </div>
+
+  <p class="lead">An audiobook player for the books you already own. No ads, no account, no tracking.</p>
+  <a class="button" href="https://play.google.com/store/apps/details?id=com.audoria">Get Audoria on Google Play</a>
+
+  <div class="card">
+    <h2>Free</h2>
+    <ul>
+      <li>Your library from your phone or SD card: M4B, MP3, M4A, OGG, OPUS, FLAC and more</li>
+      <li>Chapters, bookmarks with notes, speed from 0.5× to 3×, sleep timer with fade-out</li>
+      <li>Listening statistics, smart collections, queue, widget and Android Auto</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Audoria Pro — one-time purchase, free for 7 days</h2>
+    <ul>
+      <li>Works with Audiobookshelf servers: stream, sync your place and download for offline</li>
+      <li>Chromecast, equalizer with presets, volume boost and spatial audio</li>
+      <li>Edit book details and covers, your own collections, bedtime sleep timer, player background styles</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Support</h2>
+    <p style="margin:0">Questions, ideas or problems? Email <a href="mailto:audoriastudio@gmail.com">audoriastudio@gmail.com</a>
+      or use <b>Settings → About → Contact us</b> in the app.</p>
+  </div>
+
+  <footer>
+    <a href="privacy/">Privacy policy</a> · © 2026 Audoria Studio<br>
+    Audiobookshelf is an independent open-source project. Audoria is not affiliated with, or endorsed by, the Audiobookshelf project.
+    Google Play is a trademark of Google LLC.
+  </footer>
+</main>
+</body>
+</html>
